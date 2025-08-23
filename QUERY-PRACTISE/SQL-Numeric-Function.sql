@@ -1,0 +1,14 @@
+--NUMERIC FUNCTION--
+
+--ROUND--
+SELECT
+5.633,
+ROUND(5.633,2) AS round_2,
+ROUND(5.633,1) AS round_1,
+ROUND(5.633,0) AS round_0;
+
+--ABSOLUTE--
+SELECT 
+-100 AS number,
+ABS(-100) AS Abs_Num,
+ABS(100) AS Abs_Num;
