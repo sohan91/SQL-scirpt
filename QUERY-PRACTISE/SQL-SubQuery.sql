@@ -73,7 +73,6 @@ ON o.CustomerID = c.CustomerID;
           WHERE (SELECT 
           AVG(Price) 
 		  FROM Sales.Products)<Price;
-<<<<<<< HEAD
 
   --SUB QUERY in IN OPERATOR--
   /*Show the details of orders made by customers in germany*/
@@ -142,7 +141,7 @@ SELECT Salary FROM Sales.Employees WHERE Gender='M');
   Sales.Customers AS c
   WHERE Country = 'Germany'
   AND o.CustomerID = c.CustomerID);
-=======
+
    
    
->>>>>>> main
+
